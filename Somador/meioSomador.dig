@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Meio Somador</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-380" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>XOr</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-360" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-440" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>So</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-100" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>V</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes/>
+      <pos x="-260" y="460"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-360" y="800"/>
+      <p2 x="-220" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="720"/>
+      <p2 x="-220" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="820"/>
+      <p2 x="-80" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="680"/>
+      <p2 x="-220" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="840"/>
+      <p2 x="-220" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="700"/>
+      <p2 x="-100" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="560"/>
+      <p2 x="-440" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="680"/>
+      <p2 x="-440" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="560"/>
+      <p2 x="-360" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="720"/>
+      <p2 x="-360" y="800"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
