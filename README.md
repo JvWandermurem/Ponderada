@@ -1,3 +1,8 @@
 # PonderadaCPU
 
-Cada Pasta contém os arquivos do DIGITAL + um vídeo explicativo de cada parte da ponderada.
+Cada Pasta contém os arquivos do DIGITAL + de cada parte da ponderada.
+
+Abaixo segue os links dos vídeos
+Somador: https://youtu.be/a0iGzRWVY2o
+ALU:
+CPU:
