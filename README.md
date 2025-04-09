@@ -8,4 +8,4 @@ Somador: https://youtu.be/a0iGzRWVY2o
 
 ALU: https://youtu.be/fST527Un4SM
 
-CPU:
+CPU:https://youtu.be/r8n1Me0rDBw
